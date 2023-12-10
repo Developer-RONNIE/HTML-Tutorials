@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+<!-- Note: Every element within a form is submitted as a bundle to the backend to process-->
+
+<!-- ****FORM TAG & IT's ATTRIBUTES EXPLANATION**** -->
+<!-- action attribute within the <form> tag 
+    denotes the location where you want to send the data to 
+    i.e, where the data is stored and send for further processing 
+    mostly, sent into the backend url(can be javascript, database), we will learn about it later in backend playlist
+-->
+<!-- There are two types of forms which are denoted my methods:
+    1. GET 
+    Example: Google search (it is get type form i.e, the data is visible in the url)
+    
+    2. POST : Used whenever we want to send the data into the server because it encrypts the data(which means data is not sent as clear text format)
+-->
+<!-- accept-charset refers to what type of text and emoji we allow -->
+<!-- autocomplete attribute can either be turned on or off 
+    as per requirement of the the form, generally turned off if we are working with sensitive data -->
+<!-- enctype attribute stands for encrypt/encoding type
+    which generally have 3 more types specified within it 
+    *1. application : Default. All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)
+    *2. multipart/form-data : This value is necessary if the user will upload a file through the form
+    *3. text/plain : Sends data without any encoding at all. Not recommended
+    -->
+
+
+    <form action="url" method="GET" accept-charset="UTF-8", autocomplete="off", enctype="">
+        <!-- Input Element  -->
+        <label for="fname">First Name</label> <!-- Label Tag -->
+        <input type="text" placeholder="first name" name="" id="fname">
+        <br>
+        <!-- Explanation: 
+            1. we use "input:text" inorder to take input from the user, and we can give purpose of the input field in "placeholder". We will later see the importance of "name" & "id" and other attributes in a form. 
+            2. we use <label> tag to label our input field 
+            why it is important ? 
+            screen reader can't read the placeholder which is why we use label tag.
+            Now comming to "id" in input element, it is associated with the "for" attribute in <label> tag. 
+            When we run this form now we can see whenever we click on the label it will highlight the input element associated with that particular label. 
+            3. lastly we use <br> tag to break the line or to switch to next line -->
+
+            <!-- Some more examples  -->
+        <label for="lname">Last Name</label>  
+        <input type="text" placeholder="last name" name="" id="lname">
+        <br>
+        <label for="email">Email ID</label>  
+        <input type="text" placeholder="email id" name="" id="email">
+    </form>
+
+</body>
+</html>
