@@ -17,7 +17,7 @@ which means if you don't mention any file within your software, you would be ser
 (Earlier we had something called default.html)
 
 # CONTENTS 
-- Header tags 
+### A. Header tags 
 1. !DocType
 2. Scripts
 3. link (rel, href)
