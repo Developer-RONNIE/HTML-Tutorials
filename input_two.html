@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+
+
+    <form action="url" method="GET" accept-charset="UTF-8", autocomplete="off", enctype="">
+        <!-- *****Input Element*****  -->
+
+        <!-- In general there are 22 types of Input elements  -->
+        <!-- Inorder to read about all of them checkout this website (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) -->
+        <!-- We would be covering  the few important input types-->
+        <label for="fname">First Name</label> <!-- Label Tag -->
+        <input type="text" placeholder="first name" name="" id="fname">
+        <br>
+
+        <!-- Reset input element example -->
+        <label for="email">Email</label>
+        <input type="text" placeholder="" value="xyz@" id="email">
+        <input type="reset" value="reset">
+        <br>
+
+        <!-- Password input element example -->
+        <label for="password">Password</label>
+        <input type="password" name="" id="password">
+        <br>
+
+        <!-- Week input element example -->
+        <label for="week">Week</label>
+        <input type="week" name="" id="week">
+        <br>
+
+        <!-- Select Input  -->
+        <select name="editors" id="" >
+        <!-- we can use "multiple" attribute after "id" attribute to make it multiple selection -->
+            <option value="vscode">vscode</option>
+            <option value="fleet">fleet</option>
+        </select>
+        <br>
+
+        <!-- Alternative of Select Input (Just for knowledge)-->
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="fleet">fleet</option>
+        </datalist>
+        <br>
+
+        <!-- Hidden Input  -->
+        <input type="hidden" name="">
+        <!-- It won't show to the user
+        mostly used in django while user authentication we need to generate a token which won't be visible to the user but the token will be generated and sent to the server -->
+        <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
