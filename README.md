@@ -25,4 +25,19 @@ which means if you don't mention any file within your software, you would be ser
 5. meta (name, content)
 6. base (href, target)
 
+### B. CODE & OTHER TAGS
+1. code 
+2. samp 
+3. kbd 
+4. var
+5. pre
+6. Semantics in HTML
+
+# HOW TO PRACTISE 
+- STEP1: Read this ReadMe file carefully and follow the instructions
+- STEP2: Start with Basics folder it will contain index, structures, tags of html
+- STEP3: Study head.html & head.css
+- STEP4: Study code.html
+- STEP5: Study forms.html
+
 
