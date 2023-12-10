@@ -1,0 +1,101 @@
+<!-- 
+    
+    In this we are going to see the head section in HTML which is also known as meta data 
+    What is MetaData ? 
+    Data about the Data is called MetaData 
+    example: 
+    data size, when created, last modified (these are the information about the data)
+    
+    Similarly, our HTML page does contain a lot of information within it. such as, 
+    - the page was created by which author
+    - why it was created 
+    - where would be the style sheet of this page 
+    - how much the page can zoom in & zoom out 
+
+    All these information would be stored within it's head 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--head contains the meta data-->
+  <head>
+    <title>Title of the Page</title>
+
+<!-- Also supports styling of Css directly -->
+    <!-- <style>
+      body {
+        background-color: #414141;
+        color: #fff;
+      }
+    </style> -->
+
+
+<!-- Rel tag within link which is an alternative to use CSS or JS inderectly -->
+  <link rel="stylesheet" href="./head.css">
+
+<!-- ***** Some Important Meta sets *****
+Most of the meta set have some attrivutes such as charset, name, content, etc. -->
+
+  <meta charset = "UTF-16"> <!-- for emojis & japanese / spanish language (espacially for characters which have tilde "`" sign above them) -->
+  <!-- for normal text we use "UTF-8" -->
+
+  <!-- Remaining meta sets are almost same which will contain 2 attributes within them which are "name", "content" -->
+  <meta name="keywords" content="HTML, web, web development">
+  <meta name="description" content="this is a HTML basics tutorial">
+
+  <!-- to control refreshing of the page & control over latency speed in HTML, In modern era we use JS for this task (Just for knowledge purpose) -->
+  <meta http-equiv="refresh" content="30">
+
+  <!-- this tags maintains the initial zoom in various devices such as mobile, tablet, desktop 
+  in order to know the effectiveness of this tag remove it from the code and run live server and go to inspect and check in mobile device 
+  and apply the code again to see the difference
+  also read MDN docs on this topic to understand "initial scale" better -->
+  <meta name="viewport"
+  content="width=device-width, initial-scale=0.9">
+
+  <!-- The <base> tag specifies the base URL and/or target for all relative URLs in a document.
+  The <base> tag must have either an href or a target attribute present, or both.
+  There can only be one single <base> element in a document, and it must be inside the <head> element.-->
+  <base href="https://www.w3schools.com/" target="_blank">
+
+
+  <!-- sometimes we add JS as scripts in HTML 
+  for INJECTING THE js within the HTML before the page gets loaded 
+  in order to increase the interactivity of the page -->
+  <script></script>
+
+  
+  </head>
+  <body>
+    <!-- Heading Tag (used lorem20)-->
+    <h1>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam natus
+      sunt, ratione modi qui similique perspiciatis quo iusto consectetur quos.
+    </h1>
+    <!-- Paragrapgh Tag (used lorem200) -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, totam
+      velit aspernatur veniam, quis ratione ex eaque at animi quod tenetur
+      possimus delectus fuga eum amet vel voluptas. Ut, consectetur amet.
+      Repellat culpa quidem cumque laboriosam fugit natus sunt tempora? Facere
+      tenetur at aliquam ducimus corporis nemo mollitia blanditiis quo hic
+      totam, labore laborum vero in quam eveniet illum consequuntur iure quae!
+      Consectetur id voluptates, pariatur molestias sit sequi debitis illum
+      dolorem, architecto doloremque a similique delectus velit. Ad expedita ut
+      quidem ratione fugit neque, qui possimus animi rem accusantium? Nobis id,
+      obcaecati nemo consequuntur facere, veniam tempore sunt ipsa perferendis
+      natus non neque odit doloribus amet! Quia explicabo repudiandae quae
+      beatae odit deserunt nemo expedita, fugiat quos iusto? Repellat eligendi
+      reiciendis voluptas, debitis in officiis, nobis minus et distinctio sunt
+      id est, ullam quo eius perferendis dignissimos eum minima animi qui hic.
+      Beatae blanditiis asperiores doloremque eaque, eveniet expedita? Sint aut
+      incidunt ab fuga reprehenderit, natus quibusdam ducimus sed porro ex
+      soluta non in iste sapiente earum ipsam hic rerum consectetur ut
+      repellendus culpa eius error suscipit debitis? Maiores quos aperiam
+      inventore voluptate voluptatum doloribus repudiandae corrupti minima neque
+      consequuntur. Iure, adipisci repudiandae minima enim minus veritatis est
+      quaerat.
+    </p>
+  </body>
+</html>
