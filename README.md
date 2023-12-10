@@ -17,12 +17,12 @@ which means if you don't mention any file within your software, you would be ser
 (Earlier we had something called default.html)
 
 # CONTENTS 
-- 1. Header tags 
-- !DocType
-- Scripts
-- link (rel, href)
-- meta (charset)
-- meta (name, content)
-- base (href, target)
+- Header tags 
+1. !DocType
+2. Scripts
+3. link (rel, href)
+4. meta (charset)
+5. meta (name, content)
+6. base (href, target)
 
 
