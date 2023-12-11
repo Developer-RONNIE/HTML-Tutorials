@@ -33,11 +33,24 @@ which means if you don't mention any file within your software, you would be ser
 5. pre
 6. Semantics in HTML
 
+### C. FORMS
+1. attributes of forms
+2. input element
+3. label 
+4. buttons
+5. types of input elements
+
+### D. AUDIO & VIDEO
+1. video tag 
+2. audio tag 
+
 # HOW TO PRACTISE 
 - STEP1: Read this ReadMe file carefully and follow the instructions
 - STEP2: Start with Basics folder it will contain index, structures, tags of html
 - STEP3: Study head.html & head.css
 - STEP4: Study code.html
-- STEP5: Study forms.html
+- STEP5: Study forms_one.html & input_two.html
+- STEP6: Study media.html
+- STEP7: Revise & read the MDN Docs (links are given within the specific topics)
 
 
