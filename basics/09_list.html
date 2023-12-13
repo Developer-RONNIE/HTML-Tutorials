@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+
+    <!-- There are 4 types of List  
+    1. unordered List
+    2. Ordered List  -->
+
+
+    <!-- ****** 1.Unordered List ****** -->
+    <h2>Unordered List</h2>
+    <ul style="list-style-type: square;">
+        <!-- here ul=unordered list, li=list -->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <!-- ****** 2.Ordered List ****** -->
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <!-- here ul=ordered list, li=list -->
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <!-- Checkout there other attributes from MDN Docs  -->
+
+    <!-- ****** 3.Nested List ****** -->
+    <h2>Nested List</h2>
+    <ul style="list-style-type: square;">
+        <!-- intermixing of both unordered and ordered list  -->
+        <li>1
+            <ol>
+                <li>S.1</li>
+                <li>S.2</li>
+            </ol>
+        </li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    
+    <!-- ****** 4.Data List ****** -->
+    <h2>Data List</h2>
+    <dl>
+        <!-- here dl=datalist, dt=data topic, dd=data description -->
+        <dt>Ice Tea</dt>
+        <dd>Lemon Ice Tea</dd>
+        <dt>Hot Tea</dt>
+        <dd>Hot Lemon Tea</dd>
+    </dl>
+
+    <!-- ################################################################################################################## --> <br>
+
+    <!-- How to know which is Block Element & which is Inline Element  -->
+    <h3>test 1</h3> <!---->
+    <p>test 2</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span>test 3</span> A, consequatur?</p>
+
+    <!-- Block element would occupy the entire line for themselves. However, the Inline elements would take limited spaces within a line -->
+
+    <!-- Read MDN docs inorder to know which element is inline/ block and why?  -->
+</body>
+</html>
