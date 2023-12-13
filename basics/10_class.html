@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class & ID</title>
+    <style>
+        .red{
+            background-color: chocolate;
+        }
+        #green{
+            background-color: darkgreen;
+        }
+
+        table{
+            
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr {
+            
+            color: #000000;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <!-- classes are not used for styling in CSS
+    - the main purpose of classes & id's are to target an element so that we can manipulate the elements in order to store, delete or perform various other tasks on it
+    - We will see how we select a class or id and with help of it how we can target a particular element easily. -->
+
+    <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas.</p>
+
+    <p id="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi?</p>
+
+    <h1 class="red">test1</h1>
+
+    <h2>test2</h2>
+
+    <!-- Since HTML is a forgiving language, it can have multiplt classes and id, 
+    However a good practise is to have one id and multiple classes. 
+    The pracise may vary from different programming languages -->
+
+    <!-- ############################ -->
+
+    <!-- *****iframe***** -->
+    <!-- primary task of an iframe is to load another web page within one web page -->
+
+    <table>
+        <tr>
+            <th >Content</th>
+            <th>Video</th>
+        </tr>
+        <tr>
+            <th>Google Gemini</th>
+            <td>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sPiOP_CB54A?si=S5H2oX3xw5EsHzSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <!-- read more about iframe attribute from mdn  -->
+
+                <!-- also read how to use embed code for vimeo -->
+            </td>
+        </tr>
+    </table>
+        
+    
+</body>
+</html>
