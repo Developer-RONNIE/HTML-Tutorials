@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./06_style.css">
+    <style>
+        body{
+            color:aqua;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2
+    style="text-align: center;
+    background-color: rgba(67, 163, 34, 0.5); 
+    color: orangered;
+    "
+    > This is color Coding</h2>
+
+    <!-- we use colors in 3 ways in # values
+    1. rgb value (red, greem, blue)
+    2. hsl value (hue, saturation, light)
+    3. hwb value ()
+
+    rbga/hsla - where a is for alpha channels which is opacity -->
+
+
+
+    <!-- *** Different methods for adding styling *** -->
+
+    <!-- 
+        1. Adding a styling css (for our case we are using 06_style.css)
+        Then we add it to our header section <link:css> - So basically we use it via different file 
+
+        2. Directly use styling in HTML, we use style tag within header section. 
+
+        3. We an also add styling through Inline styling ( better understand through attributes)
+
+        4. which will be given more prefernce is both are used simultaneously? It depends where and when you inject css for styling cuz the next line can override the first styling 
+     -->
+
+
+    <!--  ***How to inject Quote in HTML***  -->
+
+    <!-- 1st Method using blockquote tag(in this case we generally use csss for styling "")-->
+    <p>
+        <blockquote cite="Elon Musk">
+            this is my Quote
+        </blockquote>
+    </p>
+
+
+    <!-- 2nd using q tag  (it adds "" automatically to the quote)-->
+    <p>
+        <q>
+            this is my quote
+        </q>
+    </p>
+
+
+    <!-- Other Tags  -->
+
+    <p>
+
+        <!-- Abbreviation tag -->
+        <abbr title="Hyper Text Markup language ">HTML</abbr>
+
+        <!-- Address tag -->
+        <address>India</address>
+
+        <cite></cite>
+
+        <!-- Bi-directional  tag-->
+        <bdo dir="rtl">Ronnie</bdo>
+        <!-- Mostly used in urdu  -->
+        
+    </p>
+</body>
+</html>
