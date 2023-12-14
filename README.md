@@ -17,6 +17,19 @@ which means if you don't mention any file within your software, you would be ser
 (Earlier we had something called default.html)
 
 # CONTENTS 
+
+### Basics 
+1. !Enter a positive number : 6
+2. change in location due to loss of data
+3. tags, elements, attributes in HTML
+4. heading , paragraph, break, hr, pre tags
+5. formatting, In line styling HTML
+6. how to add styling, abbr, address, bdo, cite
+7. img tag, picture tag, img mapping, anchor tags
+8. tables, tr,th,td & table attributes
+9. list, unorder, order, nested, data, inline & block elements
+10. class, id, iframe
+
 ### A. Header tags 
 1. !DocType
 2. Scripts
